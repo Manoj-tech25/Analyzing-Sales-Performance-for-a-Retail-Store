@@ -1,19 +1,19 @@
-##Online Retail Data Analysis
+## Online Retail Data Analysis
 This project analyzes an Online Retail dataset to gain insights into customer purchasing patterns and product popularity. The dataset contains information about transactions, products, customers, and sales.
 
-##Objective
+## Objective
 The analysis aims to:
 
 Clean the dataset to ensure accuracy and usability.
 Explore customer behavior (spending and frequency).
 Identify popular products based on quantity sold and revenue generated.
 Provide actionable business insights.
-#Data Cleaning Steps
+# Data Cleaning Steps
 Removed rows with missing CustomerID values to ensure customer-level analysis accuracy.
 Filled missing product descriptions with the placeholder "Unknown".
 Converted InvoiceDate to a proper datetime format for time-based analysis.
 Added a new column TotalPrice = Quantity × UnitPrice.
-#Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 1. Top 10 Countries by Total Sales
 The United Kingdom contributes the majority of sales, followed by a few other countries.
 Visualized using a horizontal bar chart.
@@ -26,20 +26,20 @@ Analyzed customer purchase frequency and spending to segment customers.
 4. Product Popularity
 Highlighted the Top 10 Most Purchased Products (by quantity).
 Identified the Top 10 Revenue-Generating Products to focus on high-value items.
-##Key Insights
-#Customer Behavior:
+## Key Insights
+# Customer Behavior:
 High-value customers significantly contribute to total revenue.
 Retaining these customers is critical for sustained growth.
-#Product Popularity:
+# Product Popularity:
 Most purchased products (high volume) may differ from high-revenue products (more expensive).
 Optimize stock levels and promotions based on product performance.
-#Country-Wise Sales:
+# Country-Wise Sales:
 The United Kingdom is the dominant market, suggesting a strong local customer base.
-##Code
+## Code
 Below is the Python code used for data cleaning and analysis:
 
-##python
-##Copy code
+## python
+## Copy code
 # Import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
