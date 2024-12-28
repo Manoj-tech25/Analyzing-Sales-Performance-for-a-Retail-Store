@@ -111,7 +111,7 @@ plt.title("Top 10 Revenue-Generating Products", fontsize=16)
 plt.xlabel("Total Revenue (in currency)", fontsize=12)
 plt.ylabel("Product Description", fontsize=12)
 plt.show()
-Conclusion
+# Conclusion
 The analysis provides actionable insights for businesses to:
 
 Identify and retain high-value customers.
