@@ -39,8 +39,8 @@ The United Kingdom is the dominant market, suggesting a strong local customer ba
 Below is the Python code used for data cleaning and analysis:
 
 # python
-# Copy code
-## Import libraries
+
+# Import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
